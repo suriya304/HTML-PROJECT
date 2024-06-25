@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+
+.header {
+  padding: 25px;
+  text-align: center;
+  background: #e8d52c;
+}
+
+.header h1 {
+  font-size: 60px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 17px 19px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 25px;
+  width: 200px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Chandrayaan</h1>
+  <p>Indian lunar space probe series</p>
+</div>
+
+<div class="topnav">
+  <a href="#" href="https://en.wikipedia.org/wiki/Chandrayaan-1#History">Chandrayaan-1</a>
+  <a href="#">Chandrayaan-2</a>
+  <a href="#">Chandrayaan-3</a>
+  <a href="#" style="float:right">About</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Chandrayaan-1</h2>
+      <h5>It was launched by the Indian Space Research Organisation (ISRO) in October 2008, and operated until August 2009. The mission included a lunar orbiter and an impactor. India launched the spacecraft using a PSLV-XL rocket on 22 October 2008 at 00:52 UTC from Satish Dhawan Space Centre, at Sriharikota, Andhra Pradesh.[7] The mission was a major boost to India's space program,[8] as India researched and developed indigenous technology to explore the Moon.[9] The vehicle was inserted into lunar orbit on 8 November 2008.</h5>
+      <img src="d:\HTML\chand.jpg" alt="Paris" style="width:500px">
+      <p>On 14 November 2008, the Moon Impact Probe separated from the Chandrayaan orbiter at 14:36 UTC and struck the south pole in a controlled manner. With this mission, ISRO became the fifth[11] national space agency to reach the lunar surface. Other nations whose national space agencies to have done so prior were the former Soviet Union in 1959,[12] the United States in 1962,[13] Japan in 1993,[14] and ESA member states in 2006</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>Chandrayaan-2</h2>
+      <h5>Chandrayaan-2 (transl. "mooncraft"; pronunciation (help·info)) is the second lunar exploration mission developed by the Indian Space Research Organisation (ISRO), after Chandrayaan-1. It consists of a lunar orbiter, the Vikram lander and the Pragyan rover, all of which were developed in India.</h5>
+      <img src="Chandrayaan 2_ इसरो का दावा सुरक्षित है लैंडर विक्रम, नहीं हुई कोई टूट-फूट; संपर्क की कोशिशें जारी.jpg" alt="Paris" style="width:500px">
+      <p>The spacecraft was launched from the second launch pad at the Satish Dhawan Space Centre in Andhra Pradesh on 22 July 2019 at 09:13:12 UTC by a LVM3-M1 rocket. The craft reached the Moon's orbit on 20 August 2019 and began orbital positioning manoeuvres for the landing of the Vikram lander. The lander and the rover were scheduled to land on the near side of the Moon, in the south polar region at a latitude of about 70° south on 6 September 2019.</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Goals of chandrayaan :</h2>
+      <img src="Watch Live as India Attempts to Land Its Vikram Probe on the Moon.jpg" alt="Paris" style="width:300px">
+      <p>1.In order to reach its objective, the mission defined these goals:<br><br>
+
+       2. High-resolution mineralogical and chemical imaging of the permanently shadowed north- and south-polar regions<br><br>
+        Searching for surface or sub-surface lunar water-ice, especially at the lunar poles<br><br>
+       3.Identification of chemicals in lunar highland rocks<br><br>
+        4.Chemical stratigraphy of the lunar crust by remote sensing of the central uplands of large lunar craters, and of the South Pole Aitken Region (SPAR), an expected site of interior material<br><br>
+        5.Mapping the height variation of features of the lunar surface<br><br>
+        6.Observation of X-ray spectrum greater than 10 keV and stereographic coverage of most of the Moon's surface with 5 m (16 ft) resolution<br><br>
+        Providing new insights in understanding the Moon's origin and evolution <br><br></p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+    <p>Prime Minister Atal Bihari Vajpayee announced the Chandrayaan project on course in his Independence Day speech on 15 August 2003. The mission was a major boost to India's space program. The idea of an Indian scientific mission to the Moon was first mooted in 1999 during a meeting of the Indian Academy of Sciences. The Astronautical Society of India carried forward the idea in 2000.</p>
+    </div>
+    <div class="card">
+      <h3>Future predication</h3>
+      <p>Chandrayaan-3 was launched on 14 July 2023. The lander and rover landed at the lunar south pole region on 23 August 2023 at 18:02 IST, making India the first country to successfully land a spacecraft near the lunar south pole and the fourth country to soft-land on the Moon.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Chandrayaan || Chandrayaan@gmail.com</h2>
+</div>
+
+</body>
+</html>
+
+

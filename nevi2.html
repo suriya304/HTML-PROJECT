@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="nevi2.css">
+<script>
+    var navigation = $('#nav-main').okayNav();
+</script>
+</head>
+<body>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<link rel="stylesheet" href="font-awesome-animation.min.css">
+
+
+<div id="Phone_container">
+    <section id="Left_menu">
+
+              <span class="Menu_divider"></span>
+              <div class="Menu_main">
+                  <i class="fa fa-search" aria-hidden="true" style="color:#2980b9"></i>    
+              </div>
+
+     </section>
+
+  <section id="Left_menu2">
+
+  		  <span class="Menu_divider"></span>
+          <div class="Menu_main">
+ 
+                  
+              <i class="fa fa-pencil-square-o" aria-hidden="true"></i> 
+              <i class="fa fa-bookmark" aria-hidden="true"><span class="count-time-line"></span></i>
+              <i class="fa fa-bell-o" aria-hidden="true"><span class="count-notification"></span></i>   
+              <i id="dot-parameter" class="fa fa-ellipsis-v" aria-hidden="true"></i>
+              <i id="homeup"class="fa fa-home" aria-hidden="true" style="display:none"></i>
+
+          </div>
+
+ </section>
+</div>
+
+
+
+<div id='footer'>
+  <div class='footer-container'>
+    <a href="home.php?id=<?=$_SESSION['user_id'] ?>"><i class="fa fa-home" aria-hidden="true"></i></a>
+    <i id="message" class="fa fa-envelope-o" aria-hidden="true"><span class="count-message"></span></i>
+    <i class="fa fa-picture-o" aria-hidden="true"></i>
+    <i class="fa fa-user-plus" aria-hidden="true"></i>  
+  
+  </div>
+</div>
+</body>
+</html>
